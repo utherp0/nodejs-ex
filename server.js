@@ -73,6 +73,16 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
+app.get('uthtest1', function (req,res) {
+  if(db) {
+    db.collection('counts').count(function(err,count){
+      res.send('<html><head><title>Uth Test 1</title></head><body><b>Count:</b>' + count + '</body></html>' );
+    });
+  } else {
+    res.send('Error: DB not active.');
+  }
+});
+
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
