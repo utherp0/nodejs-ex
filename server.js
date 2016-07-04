@@ -83,6 +83,14 @@ app.get('/uthtest1', function (req,res) {
   }
 });
 
+app.get('/uthtest2', function (req,res) {
+  res.send('<html><head><title>UthTest2 Headers Output</title></head><body>' );
+  res.send('<plaintext>');
+  res.send( JSON.stringify(res.headers));
+  res.send('</plaintext>');
+  res.send('</body></html>');
+});
+
 app.get('/temenos', function (req,res) {
   res.send('<html><head><title>TEMENOS Example</title></head><body bgcolor="white"><b>EXAMPLE <font color="red">NODE.JS</font> RESPONSE</b></body></html>');
 });
