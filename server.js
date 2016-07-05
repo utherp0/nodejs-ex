@@ -84,11 +84,11 @@ app.get('/uthtest1', function (req,res) {
 });
 
 app.get('/uthtest2', function (req,res) {
-  res.send('<html><head><title>UthTest2 Headers Output</title></head><body>' );
-  res.send('<plaintext>');
-  res.send( JSON.stringify(res.headers));
-  res.send('</plaintext>');
-  res.send('</body></html>');
+  res.send('<html><head><title>UthTest2 Headers Output</title></head><body>'
+    + '<plaintext>'
+    + JSON.stringify(res.headers)
+    + '</plaintext>'
+    + '</body></html>');
 });
 
 app.get('/temenos', function (req,res) {
