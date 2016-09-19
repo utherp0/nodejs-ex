@@ -92,7 +92,7 @@ app.get('/uthtest2', function (req,res) {
 });
 
 app.get('/wipro', function (req,res) {
-  res.send('<html><head><title>WIPRO Demo</title></head><body bgcolor=yellow>TEST PAGE</body></html>');
+  res.send('<html><head><title>WIPRO Demo</title></head><body bgcolor=grey>TEST PAGE</body></html>');
 });
 
 app.get('/temenos', function (req,res) {
