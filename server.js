@@ -95,6 +95,10 @@ app.get('/wipro', function (req,res) {
   res.send('<html><head><title>WIPRO Demo</title></head><body bgcolor=yellow>TEST PAGE</body></html>');
 });
 
+app.get('/uthtest3', function (req,res) {
+  res.send('<html><head><title>UthTest3 Test</head><body bgcolor='#dddddd'><b>Test</b></body></html>');
+});
+
 app.get('/temenos', function (req,res) {
   res.send('<html><head><title>TEMENOS Example</title></head><body bgcolor="white"><b>EXAMPLE <font color="red">NODE.JS</font> RESPONSE</b></body></html>');
 });
