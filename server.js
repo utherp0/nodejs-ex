@@ -100,7 +100,7 @@ app.get('/uthtest3', function (req,res) {
 });
 
 app.get('/uthtest4', function (req,res) {
-  res.send('NO HTML!');
+  res.send('<b>NO HTML!</b>');
 });
 
 app.get('/temenos', function (req,res) {
