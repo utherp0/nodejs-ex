@@ -96,7 +96,11 @@ app.get('/wipro', function (req,res) {
 });
 
 app.get('/uthtest3', function (req,res) {
-  res.send('<html><head><title>UthTest3 Test</head><body bgcolor=\'#dddddd\'><b>Test</b></body></html>');
+  res.send('<html><head><title>UthTest3 Test</head><body bgcolor=\'yellow\'><b>Test</b></body></html>');
+});
+
+app.get('/uthtest4', function (req,res) {
+  res.send('NO HTML!');
 });
 
 app.get('/temenos', function (req,res) {
