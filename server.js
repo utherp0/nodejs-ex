@@ -109,7 +109,7 @@ app.get('uthtest5', function (req,res) {
 
 app.get('/temenos', function (req,res) {
   res.send('<html><head><title>TEMENOS Example</title></head><body bgcolor="white"><b>EXAMPLE <font color="red">NODE.JS</font> RESPONSE</b></body></html>');
-};
+});
 
 // error handling
 app.use(function(err, req, res, next){
