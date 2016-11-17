@@ -104,7 +104,7 @@ app.get('/uthtest4', function (req,res) {
 });
 
 app.get('uthtest5', function (req,res) {
-  res.send( 'BEEP!');
+  res.send( 'Test!!');
 });
 
 app.get('/temenos', function (req,res) {
