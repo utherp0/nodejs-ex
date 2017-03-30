@@ -115,7 +115,7 @@ app.get('/temenos', function (req,res) {
   res.send('<html><head><title>TEMENOS Example</title></head><body bgcolor="white"><b>EXAMPLE <font color="red">NODE.JS</font> RESPONSE</b></body></html>');
 });
 
-app.get('abtest', function (req,res) {
+app.get('/abtest', function (req,res) {
   res.send( '<b>Release 1!</b> ' );
 });
 
