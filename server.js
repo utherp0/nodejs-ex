@@ -67,6 +67,10 @@ app.get('/', function (req, res) {
   res.render('rhsso_test.html');
 });
 
+app.get('/page1.html', function (req,res ) {
+  res.render('page1.html');
+}
+
 app.get('/pagecount', function (req, res) {
   if (db) {
     db.collection('counts').count(function(err, count ){
