@@ -69,7 +69,7 @@ app.get('/', function (req, res) {
 
 app.get('/page1.html', function (req,res ) {
   res.render('page1.html');
-}
+});
 
 app.get('/pagecount', function (req, res) {
   if (db) {
