@@ -64,7 +64,7 @@ app.get('/', function (req, res) {
   //  res.render('index.html', { pageCountMessage : null});
   //}
 
-  res.render('rhsso_test.html');
+  res.render('node_test.html');
 });
 
 app.get('/page1.html', function (req,res ) {
