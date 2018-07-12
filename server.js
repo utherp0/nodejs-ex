@@ -119,6 +119,10 @@ app.get('/boeing', function (req,res) {
   res.send( 'Hello Boeing!');
 });
 
+app.get('/deloitte', function (req,res) {
+  res.send( 'Bleep...... Good beer.');
+});
+
 app.get('/temenos', function (req,res) {
   res.send('<html><head><title>TEMENOS Example</title></head><body bgcolor="white"><b>EXAMPLE <font color="red">NODE.JS</font> RESPONSE</b></body></html>');
 });
